@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginRight="20dp"
+    android:layout_marginLeft="20dp"
+    android:id="@+id/icons_container"
+    >
+
+    <!--<TextView-->
+
+        <!--android:id="@+id/key"-->
+        <!--android:layout_width="49dp"-->
+        <!--android:layout_height="49dp"-->
+        <!--android:gravity="center"-->
+        <!--android:text="@string/fa_key" />-->
+
+    <EditText
+        android:id="@+id/l3_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="50dp"
+        android:hint="Click to auto-enter email"
+        android:drawableLeft="@android:drawable/ic_dialog_email"
+        android:ems="10"
+        android:onClick="fillemail"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/l3_pass"
+        android:layout_width="246dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="173dp"
+        android:ems="10"
+        android:hint="Click to enter Password"
+        android:inputType="numberPassword"
+        android:onClick="fillpassword" />
+
+    <Button
+        android:id="@+id/l3_login"
+        android:layout_width="wrap_content"
+        android:layout_height="55dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="181dp"
+        android:text="Send Data" />
+
+
+</RelativeLayout>
