@@ -6,7 +6,7 @@
     density="xxhdpi"
     format="10"
     plugin-version="3.1.3"
-    timestamp="1530137950531"
+    timestamp="1530138770280"
     token="-3058814732412178194"
     verifier="COLD_SWAP_REQUESTED" >
 
@@ -22,10 +22,6 @@
     <task
         name="verifier"
         duration="0" />
-
-    <artifact
-        location="/home/nethead/AndroidPro/AndroidHelper/app/build/intermediates/instant-run-apk/debug/app-debug.apk"
-        type="SPLIT_MAIN" />
 
     <build
         build-mode="FULL"
@@ -76,5 +72,9 @@
             location="/home/nethead/AndroidPro/AndroidHelper/app/build/intermediates/instant-run-apk/debug/app-debug.apk"
             type="SPLIT_MAIN" />
     </build>
+    <build
+        build-mode="COLD"
+        timestamp="1530138770280"
+        verifier="COLD_SWAP_REQUESTED" />
 
 </instant-run>
