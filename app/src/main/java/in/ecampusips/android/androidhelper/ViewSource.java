@@ -16,7 +16,12 @@ public class ViewSource extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_view_source);
+//        setContentView(R.layout.activity_view_source);
+        WebView theWebPage = new WebView(this);
+        theWebPage.getSettings().setJavaScriptEnabled(true);
+        theWebPage.getSettings().setPluginState(WebSettings.PluginState.ON);
+        setContentView(theWebPage);
+        theWebPage.loadUrl("http://android.ecampusips.in/mobile.php");
 
     }
 
