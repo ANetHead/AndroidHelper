@@ -1,12 +1,13 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/nethead/AndroidPro/AndroidHelper/app/src/main/AndroidManifest.xml:2:1-26:12
-INJECTED from /home/nethead/AndroidPro/AndroidHelper/app/src/main/AndroidManifest.xml:2:1-26:12
-INJECTED from /home/nethead/AndroidPro/AndroidHelper/app/src/main/AndroidManifest.xml:2:1-26:12
-INJECTED from /home/nethead/AndroidPro/AndroidHelper/app/src/main/AndroidManifest.xml:2:1-26:12
+ADDED from /home/nethead/AndroidPro/AndroidHelper/app/src/main/AndroidManifest.xml:2:1-31:12
+INJECTED from /home/nethead/AndroidPro/AndroidHelper/app/src/main/AndroidManifest.xml:2:1-31:12
+INJECTED from /home/nethead/AndroidPro/AndroidHelper/app/src/main/AndroidManifest.xml:2:1-31:12
+INJECTED from /home/nethead/AndroidPro/AndroidHelper/app/src/main/AndroidManifest.xml:2:1-31:12
 MERGED from [com.android.support:design:28.0.0-alpha3] /home/nethead/.gradle/caches/transforms-1/files-1.1/design-28.0.0-alpha3.aar/f4ecdfad9244e9bfb9489f564d8b7e9b/AndroidManifest.xml:17:1-24:12
 MERGED from [com.android.support:appcompat-v7:28.0.0-alpha3] /home/nethead/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0-alpha3.aar/8dd8ccb7fc90bc5deee468aa43023e65/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support.constraint:constraint-layout:1.1.2] /home/nethead/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.2.aar/6881d4938f4d3f78d7297be8a38e18b4/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.volley:volley:1.1.1-rc1] /home/nethead/.gradle/caches/transforms-1/files-1.1/volley-1.1.1-rc1.aar/a578cd00b1ea424f81196ea411da16a2/AndroidManifest.xml:2:1-11:12
 MERGED from [com.android.support:support-fragment:28.0.0-alpha3] /home/nethead/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0-alpha3.aar/5473742ba6c3d1b5de36c49a1e85b2ba/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:animated-vector-drawable:28.0.0-alpha3] /home/nethead/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0-alpha3.aar/849a1241f8a349e8f6bc89ea48fcb090/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:recyclerview-v7:28.0.0-alpha3] /home/nethead/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0-alpha3.aar/fd25179086b87375ac4877e793057124/AndroidManifest.xml:17:1-22:12
@@ -34,29 +35,35 @@ MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/nethead/.gradle/cache
 MERGED from [com.android.support:interpolator:28.0.0-alpha3] /home/nethead/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0-alpha3.aar/fb9683c6280bd1d7c7ac9d055c48f686/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/nethead/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/50553987de696746a04826b0aa7d5067/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.core:runtime:1.1.1] /home/nethead/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/829d19f9408772274232a591d23eb114/AndroidManifest.xml:17:1-22:12
-INJECTED from /home/nethead/AndroidPro/AndroidHelper/app/src/main/AndroidManifest.xml:2:1-26:12
-INJECTED from /home/nethead/AndroidPro/AndroidHelper/app/src/main/AndroidManifest.xml:2:1-26:12
-INJECTED from /home/nethead/AndroidPro/AndroidHelper/app/src/main/AndroidManifest.xml:2:1-26:12
+INJECTED from /home/nethead/AndroidPro/AndroidHelper/app/src/main/AndroidManifest.xml:2:1-31:12
+INJECTED from /home/nethead/AndroidPro/AndroidHelper/app/src/main/AndroidManifest.xml:2:1-31:12
+INJECTED from /home/nethead/AndroidPro/AndroidHelper/app/src/main/AndroidManifest.xml:2:1-31:12
 	package
 		ADDED from /home/nethead/AndroidPro/AndroidHelper/app/src/main/AndroidManifest.xml:3:5-50
 		INJECTED from /home/nethead/AndroidPro/AndroidHelper/app/src/main/AndroidManifest.xml
 		INJECTED from /home/nethead/AndroidPro/AndroidHelper/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /home/nethead/AndroidPro/AndroidHelper/app/src/main/AndroidManifest.xml
-		ADDED from /home/nethead/AndroidPro/AndroidHelper/app/src/main/AndroidManifest.xml:2:1-26:12
+		ADDED from /home/nethead/AndroidPro/AndroidHelper/app/src/main/AndroidManifest.xml:2:1-31:12
 		INJECTED from /home/nethead/AndroidPro/AndroidHelper/app/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /home/nethead/AndroidPro/AndroidHelper/app/src/main/AndroidManifest.xml
-		ADDED from /home/nethead/AndroidPro/AndroidHelper/app/src/main/AndroidManifest.xml:2:1-26:12
+		ADDED from /home/nethead/AndroidPro/AndroidHelper/app/src/main/AndroidManifest.xml:2:1-31:12
 		INJECTED from /home/nethead/AndroidPro/AndroidHelper/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /home/nethead/AndroidPro/AndroidHelper/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /home/nethead/AndroidPro/AndroidHelper/app/src/main/AndroidManifest.xml:5:5-67
+	android:name
+		ADDED from /home/nethead/AndroidPro/AndroidHelper/app/src/main/AndroidManifest.xml:5:22-64
 application
-ADDED from /home/nethead/AndroidPro/AndroidHelper/app/src/main/AndroidManifest.xml:5:5-24:19
+ADDED from /home/nethead/AndroidPro/AndroidHelper/app/src/main/AndroidManifest.xml:7:5-29:19
 MERGED from [com.android.support:design:28.0.0-alpha3] /home/nethead/.gradle/caches/transforms-1/files-1.1/design-28.0.0-alpha3.aar/f4ecdfad9244e9bfb9489f564d8b7e9b/AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:design:28.0.0-alpha3] /home/nethead/.gradle/caches/transforms-1/files-1.1/design-28.0.0-alpha3.aar/f4ecdfad9244e9bfb9489f564d8b7e9b/AndroidManifest.xml:22:5-20
 MERGED from [com.android.support.constraint:constraint-layout:1.1.2] /home/nethead/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.2.aar/6881d4938f4d3f78d7297be8a38e18b4/AndroidManifest.xml:9:5-20
 MERGED from [com.android.support.constraint:constraint-layout:1.1.2] /home/nethead/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.2.aar/6881d4938f4d3f78d7297be8a38e18b4/AndroidManifest.xml:9:5-20
+MERGED from [com.android.volley:volley:1.1.1-rc1] /home/nethead/.gradle/caches/transforms-1/files-1.1/volley-1.1.1-rc1.aar/a578cd00b1ea424f81196ea411da16a2/AndroidManifest.xml:9:5-20
+MERGED from [com.android.volley:volley:1.1.1-rc1] /home/nethead/.gradle/caches/transforms-1/files-1.1/volley-1.1.1-rc1.aar/a578cd00b1ea424f81196ea411da16a2/AndroidManifest.xml:9:5-20
 MERGED from [com.android.support:support-compat:28.0.0-alpha3] /home/nethead/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0-alpha3.aar/4409a795edef26e0201528ab4d2a3988/AndroidManifest.xml:22:5-94
 MERGED from [com.android.support:support-compat:28.0.0-alpha3] /home/nethead/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0-alpha3.aar/4409a795edef26e0201528ab4d2a3988/AndroidManifest.xml:22:5-94
 MERGED from [com.android.support:versionedparcelable:28.0.0-alpha3] /home/nethead/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0-alpha3.aar/0eab330aad700206222d3ec748cdaa65/AndroidManifest.xml:22:5-23:19
@@ -64,51 +71,63 @@ MERGED from [com.android.support:versionedparcelable:28.0.0-alpha3] /home/nethea
 	android:appComponentFactory
 		ADDED from [com.android.support:support-compat:28.0.0-alpha3] /home/nethead/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0-alpha3.aar/4409a795edef26e0201528ab4d2a3988/AndroidManifest.xml:22:18-91
 	android:supportsRtl
-		ADDED from /home/nethead/AndroidPro/AndroidHelper/app/src/main/AndroidManifest.xml:10:9-35
+		ADDED from /home/nethead/AndroidPro/AndroidHelper/app/src/main/AndroidManifest.xml:12:9-35
 	android:label
-		ADDED from /home/nethead/AndroidPro/AndroidHelper/app/src/main/AndroidManifest.xml:8:9-41
+		ADDED from /home/nethead/AndroidPro/AndroidHelper/app/src/main/AndroidManifest.xml:10:9-41
 	android:roundIcon
-		ADDED from /home/nethead/AndroidPro/AndroidHelper/app/src/main/AndroidManifest.xml:9:9-54
+		ADDED from /home/nethead/AndroidPro/AndroidHelper/app/src/main/AndroidManifest.xml:11:9-54
 	android:icon
-		ADDED from /home/nethead/AndroidPro/AndroidHelper/app/src/main/AndroidManifest.xml:7:9-49
+		ADDED from /home/nethead/AndroidPro/AndroidHelper/app/src/main/AndroidManifest.xml:9:9-49
 	android:allowBackup
-		ADDED from /home/nethead/AndroidPro/AndroidHelper/app/src/main/AndroidManifest.xml:6:9-35
+		ADDED from /home/nethead/AndroidPro/AndroidHelper/app/src/main/AndroidManifest.xml:8:9-35
 	android:theme
-		ADDED from /home/nethead/AndroidPro/AndroidHelper/app/src/main/AndroidManifest.xml:11:9-40
+		ADDED from /home/nethead/AndroidPro/AndroidHelper/app/src/main/AndroidManifest.xml:13:9-40
 activity#in.ecampusips.android.androidhelper.MainActivity
-ADDED from /home/nethead/AndroidPro/AndroidHelper/app/src/main/AndroidManifest.xml:12:9-18:20
+ADDED from /home/nethead/AndroidPro/AndroidHelper/app/src/main/AndroidManifest.xml:14:9-20:20
 	android:name
-		ADDED from /home/nethead/AndroidPro/AndroidHelper/app/src/main/AndroidManifest.xml:12:19-47
+		ADDED from /home/nethead/AndroidPro/AndroidHelper/app/src/main/AndroidManifest.xml:14:19-47
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /home/nethead/AndroidPro/AndroidHelper/app/src/main/AndroidManifest.xml:13:13-17:29
+ADDED from /home/nethead/AndroidPro/AndroidHelper/app/src/main/AndroidManifest.xml:15:13-19:29
 action#android.intent.action.MAIN
-ADDED from /home/nethead/AndroidPro/AndroidHelper/app/src/main/AndroidManifest.xml:14:17-69
+ADDED from /home/nethead/AndroidPro/AndroidHelper/app/src/main/AndroidManifest.xml:16:17-69
 	android:name
-		ADDED from /home/nethead/AndroidPro/AndroidHelper/app/src/main/AndroidManifest.xml:14:25-66
+		ADDED from /home/nethead/AndroidPro/AndroidHelper/app/src/main/AndroidManifest.xml:16:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /home/nethead/AndroidPro/AndroidHelper/app/src/main/AndroidManifest.xml:16:17-77
+ADDED from /home/nethead/AndroidPro/AndroidHelper/app/src/main/AndroidManifest.xml:18:17-77
 	android:name
-		ADDED from /home/nethead/AndroidPro/AndroidHelper/app/src/main/AndroidManifest.xml:16:27-74
+		ADDED from /home/nethead/AndroidPro/AndroidHelper/app/src/main/AndroidManifest.xml:18:27-74
 activity#in.ecampusips.android.androidhelper.Activity1
-ADDED from /home/nethead/AndroidPro/AndroidHelper/app/src/main/AndroidManifest.xml:19:9-47
+ADDED from /home/nethead/AndroidPro/AndroidHelper/app/src/main/AndroidManifest.xml:21:9-47
 	android:name
-		ADDED from /home/nethead/AndroidPro/AndroidHelper/app/src/main/AndroidManifest.xml:19:19-44
+		ADDED from /home/nethead/AndroidPro/AndroidHelper/app/src/main/AndroidManifest.xml:21:19-44
 activity#in.ecampusips.android.androidhelper.Activity2
-ADDED from /home/nethead/AndroidPro/AndroidHelper/app/src/main/AndroidManifest.xml:20:9-47
+ADDED from /home/nethead/AndroidPro/AndroidHelper/app/src/main/AndroidManifest.xml:22:9-47
 	android:name
-		ADDED from /home/nethead/AndroidPro/AndroidHelper/app/src/main/AndroidManifest.xml:20:19-44
+		ADDED from /home/nethead/AndroidPro/AndroidHelper/app/src/main/AndroidManifest.xml:22:19-44
 activity#in.ecampusips.android.androidhelper.Activity3a
-ADDED from /home/nethead/AndroidPro/AndroidHelper/app/src/main/AndroidManifest.xml:21:9-48
-	android:name
-		ADDED from /home/nethead/AndroidPro/AndroidHelper/app/src/main/AndroidManifest.xml:21:19-45
-activity#in.ecampusips.android.androidhelper.Activity3b
-ADDED from /home/nethead/AndroidPro/AndroidHelper/app/src/main/AndroidManifest.xml:22:9-48
-	android:name
-		ADDED from /home/nethead/AndroidPro/AndroidHelper/app/src/main/AndroidManifest.xml:22:19-45
-activity#in.ecampusips.android.androidhelper.ViewSource
-ADDED from /home/nethead/AndroidPro/AndroidHelper/app/src/main/AndroidManifest.xml:23:9-57
+ADDED from /home/nethead/AndroidPro/AndroidHelper/app/src/main/AndroidManifest.xml:23:9-48
 	android:name
 		ADDED from /home/nethead/AndroidPro/AndroidHelper/app/src/main/AndroidManifest.xml:23:19-45
+activity#in.ecampusips.android.androidhelper.Activity3b
+ADDED from /home/nethead/AndroidPro/AndroidHelper/app/src/main/AndroidManifest.xml:24:9-48
+	android:name
+		ADDED from /home/nethead/AndroidPro/AndroidHelper/app/src/main/AndroidManifest.xml:24:19-45
+activity#in.ecampusips.android.androidhelper.ViewSource
+ADDED from /home/nethead/AndroidPro/AndroidHelper/app/src/main/AndroidManifest.xml:25:9-48
+	android:name
+		ADDED from /home/nethead/AndroidPro/AndroidHelper/app/src/main/AndroidManifest.xml:25:19-45
+activity#in.ecampusips.android.androidhelper.GetJson
+ADDED from /home/nethead/AndroidPro/AndroidHelper/app/src/main/AndroidManifest.xml:26:9-45
+	android:name
+		ADDED from /home/nethead/AndroidPro/AndroidHelper/app/src/main/AndroidManifest.xml:26:19-42
+activity#in.ecampusips.android.androidhelper.Function
+ADDED from /home/nethead/AndroidPro/AndroidHelper/app/src/main/AndroidManifest.xml:27:9-46
+	android:name
+		ADDED from /home/nethead/AndroidPro/AndroidHelper/app/src/main/AndroidManifest.xml:27:19-43
+activity#in.ecampusips.android.androidhelper.BtnVisibility
+ADDED from /home/nethead/AndroidPro/AndroidHelper/app/src/main/AndroidManifest.xml:28:9-60
+	android:name
+		ADDED from /home/nethead/AndroidPro/AndroidHelper/app/src/main/AndroidManifest.xml:28:19-48
 uses-sdk
 INJECTED from /home/nethead/AndroidPro/AndroidHelper/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /home/nethead/AndroidPro/AndroidHelper/app/src/main/AndroidManifest.xml
@@ -119,6 +138,8 @@ MERGED from [com.android.support:appcompat-v7:28.0.0-alpha3] /home/nethead/.grad
 MERGED from [com.android.support:appcompat-v7:28.0.0-alpha3] /home/nethead/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0-alpha3.aar/8dd8ccb7fc90bc5deee468aa43023e65/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support.constraint:constraint-layout:1.1.2] /home/nethead/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.2.aar/6881d4938f4d3f78d7297be8a38e18b4/AndroidManifest.xml:5:5-7:41
 MERGED from [com.android.support.constraint:constraint-layout:1.1.2] /home/nethead/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.2.aar/6881d4938f4d3f78d7297be8a38e18b4/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.volley:volley:1.1.1-rc1] /home/nethead/.gradle/caches/transforms-1/files-1.1/volley-1.1.1-rc1.aar/a578cd00b1ea424f81196ea411da16a2/AndroidManifest.xml:7:5-43
+MERGED from [com.android.volley:volley:1.1.1-rc1] /home/nethead/.gradle/caches/transforms-1/files-1.1/volley-1.1.1-rc1.aar/a578cd00b1ea424f81196ea411da16a2/AndroidManifest.xml:7:5-43
 MERGED from [com.android.support:support-fragment:28.0.0-alpha3] /home/nethead/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0-alpha3.aar/5473742ba6c3d1b5de36c49a1e85b2ba/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-fragment:28.0.0-alpha3] /home/nethead/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0-alpha3.aar/5473742ba6c3d1b5de36c49a1e85b2ba/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:animated-vector-drawable:28.0.0-alpha3] /home/nethead/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0-alpha3.aar/849a1241f8a349e8f6bc89ea48fcb090/AndroidManifest.xml:20:5-44

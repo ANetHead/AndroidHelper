@@ -6,12 +6,30 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.Toast;
+
+import com.android.volley.AuthFailureError;
+import com.android.volley.Request;
+import com.android.volley.Response;
+import com.android.volley.VolleyError;
+import com.android.volley.toolbox.StringRequest;
+import com.android.volley.toolbox.Volley;
+
+import org.json.JSONException;
+import org.json.JSONObject;
+
+import java.io.StringReader;
+import java.util.HashMap;
+import java.util.Map;
+//import  in.ecampusips.android.androidhelper.Function;
 
 public class MainActivity extends AppCompatActivity {
 
     Button main_b1;
     Button main_b2;
     Button main_b3;
+    Button main_b4;
+    Button main_b5;
     Button viewbtn;
 
     Button exit_b;
@@ -52,6 +70,24 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        main_b4 = (Button)findViewById(R.id.main_b4);
+        main_b5 = (Button) findViewById(R.id.main_b5);
+
+        main_b4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(getApplicationContext(),BtnVisibility.class);
+                startActivity(i);
+            }
+        });
+        main_b5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(getApplicationContext(),GetJson.class);
+                startActivity(i);
+            }
+        });
+
         exit_b = (Button) findViewById(R.id.exit_b);
         exit_b.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -65,4 +101,6 @@ public class MainActivity extends AppCompatActivity {
         Intent i = new Intent(getApplicationContext(),ViewSource.class);
         startActivity(i);
     }
+
+
 }
