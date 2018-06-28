@@ -35,6 +35,10 @@
         <activity android:name="in.ecampusips.android.androidhelper.GetJson" />
         <activity android:name="in.ecampusips.android.androidhelper.Function" />
         <activity android:name="in.ecampusips.android.androidhelper.BtnVisibility" />
+        <activity
+            android:name="in.ecampusips.android.androidhelper.LinearLayout"
+            android:label="@string/title_activity_linear_layout"
+            android:theme="@style/AppTheme" />
 
         <provider
             android:name="com.android.tools.ir.server.InstantRunContentProvider"

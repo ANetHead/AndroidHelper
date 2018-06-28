@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">AndroidHelper</string>
     <string name="title_activity_view_source">ViewSource</string>
+    <string name="title_activity_linear_layout">LinearLayout</string>
 </resources>

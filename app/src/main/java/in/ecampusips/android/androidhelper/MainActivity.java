@@ -30,6 +30,7 @@ public class MainActivity extends AppCompatActivity {
     Button main_b3;
     Button main_b4;
     Button main_b5;
+    Button main_b6;
     Button viewbtn;
 
     Button exit_b;
@@ -71,16 +72,26 @@ public class MainActivity extends AppCompatActivity {
         });
 
         main_b4 = (Button)findViewById(R.id.main_b4);
-        main_b5 = (Button) findViewById(R.id.main_b5);
 
         main_b4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(getApplicationContext(),LinearLayout.class);
+                startActivity(i);
+            }
+        });
+
+        main_b5 = (Button)findViewById(R.id.main_b5);
+        main_b6 = (Button) findViewById(R.id.main_b6);
+
+        main_b5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent i = new Intent(getApplicationContext(),BtnVisibility.class);
                 startActivity(i);
             }
         });
-        main_b5.setOnClickListener(new View.OnClickListener() {
+        main_b6.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent i = new Intent(getApplicationContext(),GetJson.class);

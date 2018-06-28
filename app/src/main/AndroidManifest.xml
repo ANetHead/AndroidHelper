@@ -25,7 +25,11 @@
         <activity android:name=".ViewSource" />
         <activity android:name=".GetJson" />
         <activity android:name=".Function" />
-        <activity android:name=".BtnVisibility"></activity>
+        <activity android:name=".BtnVisibility" />
+        <activity
+            android:name=".LinearLayout"
+            android:label="@string/title_activity_linear_layout"
+            android:theme="@style/AppTheme"></activity>
     </application>
 
 </manifest>
